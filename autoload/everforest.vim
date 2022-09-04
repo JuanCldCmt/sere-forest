@@ -62,17 +62,17 @@ function! everforest#get_palette(background, colors_override) "{{{
   elseif a:background ==# 'medium' "{{{
     if &background ==# 'dark'
       let palette1 = {
-            \ 'bg0':        ['#2f383e',   '235'],
-            \ 'bg1':        ['#374247',   '236'],
-            \ 'bg2':        ['#404c51',   '237'],
-            \ 'bg3':        ['#4a555b',   '238'],
-            \ 'bg4':        ['#525c62',   '239'],
+            \ 'bg0':        ['#2a2f33',   '235'],
+            \ 'bg1':        ['#2e3338',   '236'],
+            \ 'bg2':        ['#31363b',   '237'],
+            \ 'bg3':        ['#373d41',   '238'],
+            \ 'bg4':        ['#3f464b',   '239'],
             \ 'bg5':        ['#596763',   '240'],
-            \ 'bg_visual':  ['#573e4c',   '52'],
-            \ 'bg_red':     ['#544247',   '52'],
-            \ 'bg_green':   ['#445349',   '22'],
-            \ 'bg_blue':    ['#3b5360',   '17'],
-            \ 'bg_yellow':  ['#504f45',   '136'],
+            \ 'bg_visual':  ['#474f54',   '52'],
+            \ 'bg_red':     ['#614b51',   '52'],
+            \ 'bg_green':   ['#474f54',   '22'],
+            \ 'bg_blue':    ['#415c6d',   '17'],
+            \ 'bg_yellow':  ['#5d5c50',   '136'],
             \ }
     else
       let palette1 = {
@@ -122,20 +122,20 @@ function! everforest#get_palette(background, colors_override) "{{{
   endif "}}}
   if &background ==# 'dark' "{{{
     let palette2 = {
-          \ 'fg':         ['#d3c6aa',   '223'],
-          \ 'red':        ['#e67e80',   '167'],
-          \ 'orange':     ['#e69875',   '208'],
-          \ 'yellow':     ['#dbbc7f',   '214'],
-          \ 'green':      ['#a7c080',   '142'],
-          \ 'aqua':       ['#83c092',   '108'],
-          \ 'blue':       ['#7fbbb3',   '109'],
-          \ 'purple':     ['#d699b6',   '175'],
-          \ 'grey0':      ['#7a8478',   '243'],
-          \ 'grey1':      ['#859289',   '245'],
-          \ 'grey2':      ['#9da9a0',   '247'],
-          \ 'statusline1':['#a7c080',   '142'],
-          \ 'statusline2':['#d3c6aa',   '223'],
-          \ 'statusline3':['#e67e80',   '167'],
+          \ 'fg':         ['#bfddb2',   '223'],
+          \ 'red':        ['#d76e6e',   '167'],
+          \ 'orange':     ['#e5a46b',   '208'],
+          \ 'yellow':     ['#c1bf89',   '214'],
+          \ 'green':      ['#acb765',   '142'],
+          \ 'aqua':       ['#87c095',   '108'],
+          \ 'blue':       ['#82abbc',   '109'],
+          \ 'purple':     ['#d39bb6',   '175'],
+          \ 'grey0':      ['#767b82',   '243'],
+          \ 'grey1':      ['#7f868c',   '245'],
+          \ 'grey2':      ['#9aa1a8',   '247'],
+          \ 'statusline1':['#acb765',   '142'],
+          \ 'statusline2':['#bfddb2',   '223'],
+          \ 'statusline3':['#d76e6e',   '167'],
           \ 'none':       ['NONE',      'NONE']
           \ } "}}}
   else "{{{
